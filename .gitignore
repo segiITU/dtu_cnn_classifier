@@ -50,10 +50,10 @@ MANIFEST
 *.spec
 
 data/*
-!data.gitkeep
+!data/.gitkeep
 
 models/*
-!models.gitkeep
+!models/.gitkeep
 
 # Installer logs
 pip-log.txt
