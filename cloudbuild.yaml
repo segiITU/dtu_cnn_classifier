@@ -4,16 +4,14 @@ steps:
   args: [
     'build',
     '.',
-    '-t',
-    'europe-west1-docker.pkg.dev/$PROJECT_ID/dtu-mlops-registry/training-container:latest',
+    '-t', 
+    'europe-west1-docker.pkg.dev/$PROJECT_ID/dtu-mlops-registry/image-test-mlops',
     '-f',
-    'dockerfiles/train.dockerfile'
+    'train.dockerfile'
   ]
 - name: 'gcr.io/cloud-builders/docker'
-  id: 'Push container image'
+  id: 'Push container image' 
   args: [
     'push',
-    'europe-west1-docker.pkg.dev/$PROJECT_ID/dtu-mlops-registry/training-container:latest'
+    'europe-west1-docker.pkg.dev/$PROJECT_ID/[YOUR-REGISTRY-NAME]/[IMAGE-NAME]'
   ]
-options:
-  logging: CLOUD_LOGGING_ONLY
