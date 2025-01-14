@@ -1,0 +1,137 @@
+outs:
+- hash: md5
+  path: data
+  files:
+  - relpath: .gitkeep
+    md5: d41d8cd98f00b204e9800998ecf8427e
+    size: 0
+    cloud:
+      remote_storage:
+        etag: 08e4ba96ca8df58a031001
+        version_id: '1736854059982180'
+  - relpath: processed/test_images.pt
+    md5: d66e28465e8a04b699f16f40d83a9111
+    size: 15681200
+    cloud:
+      remote_storage:
+        etag: 08ce8beacc8df58a031001
+        version_id: '1736854065546702'
+  - relpath: processed/test_target.pt
+    md5: fb831b69371df6f4530944ea84ea926f
+    size: 81200
+    cloud:
+      remote_storage:
+        etag: 089583acca8df58a031001
+        version_id: '1736854060335509'
+  - relpath: processed/train_images.pt
+    md5: 80c86f56edacef9718197be218903a4e
+    size: 94081205
+    cloud:
+      remote_storage:
+        etag: 0896ae97cf8df58a031001
+        version_id: '1736854070482710'
+  - relpath: processed/train_target.pt
+    md5: f3af2276943f17d63f9fb8d7e100fb23
+    size: 241205
+    cloud:
+      remote_storage:
+        etag: 08ee98afca8df58a031001
+        version_id: '1736854060387438'
+  - relpath: raw/test_images.pt
+    md5: dbaef582b7c62889340e79e408b1eb81
+    size: 15680759
+    cloud:
+      remote_storage:
+        etag: 0894b4bacc8df58a031001
+        version_id: '1736854064765460'
+  - relpath: raw/test_target.pt
+    md5: 07a46d22581416c598f8b052816e3f56
+    size: 80759
+    cloud:
+      remote_storage:
+        etag: 0896d4abca8df58a031001
+        version_id: '1736854060329494'
+  - relpath: raw/train_images_0.pt
+    md5: 45a5787aa4d44cc51bbc31f963513b05
+    size: 15680768
+    cloud:
+      remote_storage:
+        etag: 08e7f9b9cc8df58a031001
+        version_id: '1736854064757991'
+  - relpath: raw/train_images_1.pt
+    md5: a5c62febd0bb8c80df768b7c208a9d27
+    size: 15680768
+    cloud:
+      remote_storage:
+        etag: 08d9a4e7cb8df58a031001
+        version_id: '1736854063403609'
+  - relpath: raw/train_images_2.pt
+    md5: f20c7ad31a03213f3fa2ae2f03e3085b
+    size: 15680768
+    cloud:
+      remote_storage:
+        etag: 088b918ccc8df58a031001
+        version_id: '1736854064007307'
+  - relpath: raw/train_images_3.pt
+    md5: c57ae96d4e686648971e65d738f0332a
+    size: 15680768
+    cloud:
+      remote_storage:
+        etag: 08d090fecb8df58a031001
+        version_id: '1736854063777872'
+  - relpath: raw/train_images_4.pt
+    md5: 6d70cc8f6423c00671c2aa64fb139d67
+    size: 15680768
+    cloud:
+      remote_storage:
+        etag: 08b0c3fbcc8df58a031001
+        version_id: '1736854065832368'
+  - relpath: raw/train_images_5.pt
+    md5: 826e31e8e2fd6296dd1ad1d4cbbf0c55
+    size: 15680768
+    cloud:
+      remote_storage:
+        etag: 08da95decb8df58a031001
+        version_id: '1736854063254234'
+  - relpath: raw/train_target_0.pt
+    md5: e4a6683c59059f14cef44dfec30cdc21
+    size: 480768
+    cloud:
+      remote_storage:
+        etag: 08d98efacb8df58a031001
+        version_id: '1736854063712089'
+  - relpath: raw/train_target_1.pt
+    md5: 89b2d0ceabecbb618b05e536eade36fe
+    size: 480768
+    cloud:
+      remote_storage:
+        etag: 08c4b3b2ca8df58a031001
+        version_id: '1736854060440004'
+  - relpath: raw/train_target_2.pt
+    md5: b6eba9a036e61275df9d46f11acd0541
+    size: 480768
+    cloud:
+      remote_storage:
+        etag: 08e3d6b1ca8df58a031001
+        version_id: '1736854060428131'
+  - relpath: raw/train_target_3.pt
+    md5: a27f99f24f43d6c653e1244b21d80de0
+    size: 480768
+    cloud:
+      remote_storage:
+        etag: 08cbe4b2ca8df58a031001
+        version_id: '1736854060446283'
+  - relpath: raw/train_target_4.pt
+    md5: b1b55f6a9baa7356bf87430775e37aa6
+    size: 480768
+    cloud:
+      remote_storage:
+        etag: 08a2ebb0ca8df58a031001
+        version_id: '1736854060414370'
+  - relpath: raw/train_target_5.pt
+    md5: b44e2cd89f6efcbe4eb88253da30f327
+    size: 480768
+    cloud:
+      remote_storage:
+        etag: 08e0c4abca8df58a031001
+        version_id: '1736854060327520'
