@@ -13,5 +13,5 @@ steps:
   id: 'Push container image' 
   args: [
     'push',
-    'europe-west1-docker.pkg.dev/$PROJECT_ID/[YOUR-REGISTRY-NAME]/[IMAGE-NAME]'
+    'europe-west1-docker.pkg.dev/$PROJECT_ID/dtu-mlops-registry/image-test-mlops'
   ]
