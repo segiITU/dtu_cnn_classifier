@@ -49,7 +49,7 @@ MANIFEST
 *.manifest
 *.spec
 
-data/*
+data/**/*
 !data/.gitkeep
 
 models/*
