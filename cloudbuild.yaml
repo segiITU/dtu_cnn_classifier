@@ -5,9 +5,9 @@ steps:
     'build',
     '.',
     '-t',
-    'europe-west1-docker.pkg.dev/$PROJECT_ID/<registry-name>/<image-name>',
+    'europe-west1-docker.pkg.dev/$PROJECT_ID/dtu-mlops-registry/training-container:latest',
     '-f',
-    '<path-to-dockerfile>'
+    'dockerfiles/train.dockerfile'
   ]
 - name: 'gcr.io/cloud-builders/docker'
   id: 'Push container image'
